@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+    header {
+        padding: 20px;
+    }
+    .menu {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1020px) {
+    header {
+        padding: 40px;
+        gap: 40px;
+    }
+}
+
