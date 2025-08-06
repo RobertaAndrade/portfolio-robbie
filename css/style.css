@@ -58,6 +58,10 @@ header {
     height: auto;
 }
 
+.home-content h1 span {
+    color: #901a1a;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -88,4 +92,36 @@ header {
     border-radius: 20px;
     display: inline-block;
     align-self: flex-start;
+}
+
+#portfolio {
+    background-color: #e0e0e0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.portfolio-container {
+    padding: 20px;
+}
+
+.portfolio-container h3 {
+    color: #901a1a;
+    margin: 20px;
+}
+
+.portfolio-image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
